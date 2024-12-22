@@ -358,9 +358,9 @@ img {
     height: 50;
     width: 50;
     margin: 17;
-    background-color: maroon;
     color: white;
-
+    background-color: white;
+    padding: 0;
 }
 
 .ministryButton {
