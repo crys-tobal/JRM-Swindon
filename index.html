@@ -1,16 +1,31 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Jesus Reigns Ministries Swindon - Welcome! </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="styling.css">
-    <link href="https://fonts.google.com/specimen/Montserrat">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jesus Reigns Ministries Swindon - Welcome!</title>
+    
+        <!-- Google Fonts (Montserrat) -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+        <!-- jQuery (needed for Bootstrap 3 carousel) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+        <!-- Bootstrap 3 CSS (needed for carousel) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+        <!-- Bootstrap 3 JS (required for carousel functionality) -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+        <!-- Bootstrap 5 CSS (needed for overlay) -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Bootstrap 5 JS (for overlay functionality) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Your custom styling -->
+        <link rel="stylesheet" href="styling.css">
+    </head>
 
 <body>
     <div class="content">
@@ -31,15 +46,34 @@
             </div>
 
 
-            <button class="button flex-item hamburger" >
+            <button class="btn btn-primary button flex-item hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#navigationOverlay" aria-controls="navigationOverlay">
 
                 balls
 
             </button>
 
+                                    <!-- Offcanvas Navigation -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="navigationOverlay" aria-labelledby="navigationOverlayLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="navigationOverlayLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <nav>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="nav-link navLink">Home</a></li>
+                                    <li><a href="#" class="nav-link navLink">Meet the Ministries</a></li>
+                                    <li><a href="#" class="nav-link navLink">Event Album</a></li>
+                                    <li><a href="#" class="nav-link navLink">Giving Online</a></li>
+                                    <li><a href="#" class="nav-link navLink">About Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
         </div>
 
-            <div class="parent carouselDiv">
+            <div class="parent carouselDiv accentColour">
 
             <!-- Slideshow Carousel -->
 									<div class="container">
@@ -113,18 +147,13 @@
                 </button>
 
                 <div class="child imageDarken">
-                    test
-                </div>
-
-                <div class="child imageBackground!!!!!!!!!">
-                    test
-                </div>
-    
+                 
+                </div> 
 
 
             </div>
 
-        <div class="whiteBackground parent buttonShadow" style="z-index: 15;">
+        <div class="whiteBackground parent buttonShadow" style="z-index: 50;">
 
             <h1> Get Involved </h1>
         
@@ -139,32 +168,43 @@
 
         </div>
 
-        <div class="parent" style="width:100%; display:flex; flex-direction: column; align-items: center;">
+        <div style="width:100%; display:flex; flex-direction: column; align-items: center;">
 
-            <button class="ministryButton imageDarken" style="z-index: 14;">
+            <div class="parent ministryDiv" style="background-image: url('serviceImg.jpg'); z-index: 49;">
+                <button class="ministryButton imageDarken">
 
-               Service  ➤
+                  Service  ➤
+
+                </button>
+
+                
 
 
-            </button>
+            </div>
 
-            <button class="ministryButton imageDarken" style="z-index: 13;">
+            <div class="parent ministryDiv" style="background-image: url('childrenImg.jpg'); z-index: 48;">
+                <button class="ministryButton imageDarken">
 
-                Children's Ministry  ➤
+                    Children's Ministry  ➤
 
-            </button>
+                </button>
+            </div>
 
-            <button class="ministryButton imageDarken" style="z-index: 12;">
+            <div class="parent ministryDiv" style="background-image: url('worshipImg.jpg'); z-index: 47;">
+                <button class="ministryButton imageDarken">
 
-                Worship Ministry  ➤
+                    Worship Ministry  ➤
 
-            </button>
+                </button>
+            </div>
 
-            <button class="ministryButton">
+            <div class="parent ministryDiv" style="background-image: url('eventsImg.jpg'); z-index: 46;">
+                <button class="ministryButton imageDarken">
 
-                Events Album  ➤
+                    Events Album  ➤
 
-            </button>
+                </button>
+            </div>
 
         </div>
 
@@ -212,21 +252,22 @@
         <div class="whiteBackground">
 
             <h1> Visit Us!</h1>
-            <h2 style="margin-top: 20;">Our church is located at:
-                Rodbourne Cheney 
-            Primary school,  
-                Broadway, 
-            Swindon 
-            SN25 3BN</h2>
+            <h2 style="margin-top: 20;">Our church is located at: <br> <br>
+                Rodbourne Cheney  Primary school,  <br>
+                Broadway, <br>
+                Swindon  <br>
+                SN25 3BN
+            </h2>
         </div>
 
-        <div class="colourbackground imagePlaceholder" style="display:flex; height:190; color:white;">
-            Google Maps Link .png
+        <a href="href="https://maps.app.goo.gl/Jf5jYbXtz5qiPTaYA" target="_blank">
+            <div class="googleMapsSwin">
 
 
-        </div>
-
-        <div class="footer mainColour" style="">
+            </div>
+        </a>
+        
+        <div class="footer mainColour">
 
             <div class="footer-content">
                 <a href="#top" class="back-to-top">Back to Top</a>
@@ -252,7 +293,7 @@
 
             </ol>
 
-            <h7>Website Designed by Cristobal Caayao </h7>
+            <h7>Website designed and developed by Cristobal Caayao </h7>
             <h7>© 2024 Jesus Reigns Ministries. All Rights Reserved  </h7>
 
         </div>

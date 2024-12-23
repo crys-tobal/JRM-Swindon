@@ -1,12 +1,23 @@
+body h3, body .h3 {
+    font-size: initial !important; /* Resets the font size to default */
+}
+
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
+
+
+.bootstrap-container * {
+    all: unset; /* Reset styles first */
+    all: revert; /* Then reapply browser defaults */
+}
 
 h1 {
 
     font-size: 2em;
-    font-weight:700 !important;
+    font-weight:700;
 
 }
 
@@ -24,8 +35,10 @@ h4 {
 
 h3 {
 
+
     max-width: 400px;
-    font-weight: 700 !important;
+    font-weight: 700;
+
 }
 
 li {
@@ -34,12 +47,8 @@ li {
 
 }
 
-button {
 
-    transition: background-color 0.3s;
-    border: none;
 
-}
 
 .buttonShadow {
 
@@ -47,9 +56,17 @@ button {
 
 }
 
+a {
+
+    display:flex;
+    width: 100%;
+    max-width: 800;
+    justify-content: center;
+
+}
+
 .footer {
 
-    max-width: 1200px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -86,8 +103,38 @@ button {
     position:sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 7 14 rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.navLink {
+
+    display:flex;
+    height: 56px;
+    width: 100%;
+    border: 2px solid #834546;
+    border-radius: 7px;
+    font-size: 2em !important;
+    padding: 10px !important;
+
+
+}
+
+.offcanvas-header {
+
+    display: flex;
+    justify-content:;
+    font-size: 2em;
+    padding: 0;
+
+}
+
+.btn-close {
+
+    height: 50px !important;
+    width: 50px !important; 
+    margin: 10px 20px !important;
+
 }
 
 .JRMLogo {
@@ -110,6 +157,21 @@ button {
 
 }
 
+        .offcanvas {
+            background-color: white;
+        }
+
+        .nav-link {
+            color: black;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .nav-link:hover {
+            color: darkslategray; /* Slightly lighter hover effect */
+        }
 
 .coverImage {
 
@@ -142,6 +204,7 @@ button {
     width: 100%;
     height: 100%;
     z-index: 1;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -151,16 +214,12 @@ button {
     position:absolute;
     color: rgba(0,0,0,0);
     width: 300%;
-    height: 450;
+    height: 100%;
     z-index: -1;
 
 }
 
-.carouselDiv {
 
-    background-color: #645127;
-    width: 100% !important;
-}
 
 .parent {
 
@@ -188,6 +247,8 @@ button {
     top: 17%;
     color: white !important;
     z-index: 50;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    
 }
 
 .findOutMore {
@@ -213,7 +274,7 @@ button {
 
 .mainColourText {
 
-   color: EFC054 ;
+   color: FFDB89;
 
 }
 
@@ -228,6 +289,18 @@ img {
 
         /* Carousel */
 
+        .carouselDiv {
+
+            background-color: #645127;
+            width: 100%;
+        }
+
+        .carousel-indicators {
+
+            margin: 20px auto !important;
+            
+
+        }
     
         .carouselsize {
             width:100%;
@@ -274,7 +347,7 @@ img {
 
     display:flex;
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #ebdbb8;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color: #333;
     justify-content: center;
@@ -288,13 +361,24 @@ img {
     border-radius: 6px;
     padding-bottom: auto;
     font-weight: 700;
+    font-size: 2em;
 
 }
 
+button {
+
+    transition: background-color 0.3s;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .hamburger {
 
-    background-color: white;
+    background-color: white !important;
+    color: #333 !important;
+    border: none !important;
     height: 50px;
     width: 50px;
     margin: 0;
@@ -369,6 +453,14 @@ img {
     padding: 0;
 }
 
+.ministryDiv {
+
+    max-width: 800;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
 .ministryButton {
 
     display: flex;
@@ -378,12 +470,12 @@ img {
     height: 150px;
     align-items: center;
     justify-content: center;
-    background-color: maroon;
     padding: 30 50 20;
     color:white;
-    font-size:1.5em ;
+    font-size:2.5em ;
     font-weight: 700;
     box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56);
+    object-fit: contain;
 
 }
 
@@ -391,6 +483,18 @@ img {
 
     background-color: maroon;
 
+}
+
+.googleMapsSwin {
+
+    background-image: url('googleMapsSwin.jpg');
+    background-size:cover;
+    background-position: center;
+    display:flex; 
+    height:190; 
+    width: 100%;
+    color:rgba(0, 0, 0, 0);
+    max-width: 800;
 }
 
 @media (min-width: 800px) {
