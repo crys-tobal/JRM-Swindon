@@ -32,11 +32,12 @@ h5 {
 h4 {
     font-size: 1.8rem !important;  /* Set your preferred font size */
     max-width: 400px;
-
 }
 
-h3 {
+h2 {
 
+    font-size: 2rem !important;
+    font-weight: 500 !important;
 
 }
 
@@ -103,6 +104,7 @@ a {
     top: 0;
     z-index: 100;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
 
 }
 
@@ -238,7 +240,7 @@ a {
 
 .welcomeMsg {
 
-    height: 210;
+    height: 10;
     width: 300;
     font-size:2em ;
     font-weight: 700 !important;
@@ -254,7 +256,7 @@ a {
     width: 260;
     height: 65;
     justify-content: center;
-    top: 73%;
+    top: 69%;
     border-radius: 37px;
     margin-top: 0 !important;
     font-weight: 700;
@@ -398,7 +400,6 @@ button {
 
 .accentColour {
 
-    background-color: 7E4E54;
     color: #7E4E54;
 }
 
@@ -417,7 +418,7 @@ button {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding: 90px 50px;
+    padding: 40px 0;
     max-width: 800;
     
 }
@@ -429,7 +430,8 @@ button {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding: 50px 50px;
+    padding: 40px 50px;
+
     background-color: white;
     max-width: 800;
     
@@ -504,7 +506,21 @@ button {
         justify-content: space-between;
         position:sticky;
         top: 0;
+        background-color: white;
     }
+
+    .googleMapsSwin {
+
+        background-image: url('googleMapsSwin.jpg');
+        background-size:cover;
+        background-position: center;
+        display:flex; 
+        height: 300; 
+        width: 100%;
+        color:rgba(0, 0, 0, 0);
+        max-width: 800;
+    }
+    
 
 }
 
