@@ -1,15 +1,6 @@
-
-h3, .h3 {
-    font-size: 2.5rem !important;  /* Set your preferred font size */
-    font-weight: 700 !important; /* Optionally ensure font-weight */
-    max-width: 400px;
-}
-
 html {
     scroll-behavior: smooth;
 }
-
-
 
 .bootstrap-container * {
     all: unset; /* Reset styles first */
@@ -34,6 +25,13 @@ h4 {
     max-width: 400px;
 }
 
+h3, .h3 {
+    font-size: 2.5rem !important;  /* Set your preferred font size */
+    font-weight: 700 !important; /* Optionally ensure font-weight */
+    max-width: 400px;
+}
+
+
 h2 {
 
     font-size: 2rem !important;
@@ -47,7 +45,11 @@ li {
 
 }
 
+button:active {
 
+    background-color: white;
+
+}
 
 
 .buttonShadow {
@@ -464,7 +466,7 @@ button {
     height: 150px;
     align-items: center;
     justify-content: center;
-    padding: 30 0 20;
+    padding: 30 0;
     color:white;
     font-size:2.5em ;
     font-weight: 700;
