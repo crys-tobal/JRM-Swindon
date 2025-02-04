@@ -1,0 +1,599 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    
+    color: inherit;
+    text-decoration: none !important;
+
+}
+
+ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+.bootstrap-container * {
+    all: unset; /* Reset styles first */
+    all: revert; /* Then reapply browser defaults */
+}
+
+h1 {
+
+    font-size: 2em;
+    font-weight:700;
+
+}
+
+h5 {
+
+   max-width: 400px;
+
+}
+
+h4 {
+    font-size: 1.8rem !important;  /* Set your preferred font size */
+    max-width: 400px;
+}
+
+h3, .h3 {
+    font-size: 2.5rem !important;  /* Set your preferred font size */
+    font-weight: 700 !important; /* Optionally ensure font-weight */
+    max-width: 400px;
+}
+
+
+h2 {
+
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+
+}
+
+li {
+
+    margin:0 13px;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+
+button:active {
+
+    background-color: white;
+
+}
+
+
+
+div.shadow {
+
+    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56) !important;
+
+}
+
+a {
+
+    display:flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.footer {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.back-to-top {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 2px solid rgba(0, 0, 0, 0);
+
+}
+
+.back-to-top:hover {
+    border: 2px solid #7E4E54;
+}
+
+.header {
+
+    height: 80px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+
+}
+
+.header.button {
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.offcanvas-header {
+
+    display: flex;
+    font-size: 2em;
+    padding: 0;
+
+}
+
+.btn-close {
+
+    height: 50px !important;
+    width: 50px !important; 
+    margin: 10px 20px !important;
+
+}
+
+.JRMLogo {
+
+    height: 50px; 
+    width: 50px;
+    background-color: white; 
+    text-align: center;
+    padding: auto 0;
+
+}
+
+.JRMSwinLogo {
+
+    height: 50px; 
+    width: 100px;
+    background-color: white; 
+    text-align: center;
+
+}
+
+        .offcanvas {
+            background-color: white;
+        }
+
+        
+
+
+        .nav-link {
+
+            color: black;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
+            height: 56px;
+            width: 100%;
+            border: 2px solid #834546;
+            border-radius: 7px;
+            font-size: 2em !important;
+            padding: 10px !important;
+            cursor: pointer;
+        }
+
+        .nav-link:hover {
+            color: white; /* Slightly lighter hover effect */
+            background-color: #834546;
+        }
+
+.coverImage {
+
+    display:flex;
+    align-items: center;
+    width: 100%;
+    Height: 450px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    
+}
+
+.image {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.image.darken {
+
+    background-color: rgba(100,80,40,0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.ministry.image.darken:hover{
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.ministry.image.darken:active {
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.ministry.service-m {
+
+    background-image: url('Homepage Photos/serviceImg.jpg');
+    z-index: 49;
+
+}
+
+.ministry.children-m {
+
+    background-image: url('Homepage Photos/childrenImg.jpg'); 
+    z-index: 48;
+
+}
+
+.ministry.worship-m {
+
+    background-image: url('Homepage Photos/worshipImg.jpg');
+    z-index: 47;
+
+}
+
+.ministry.events-album {
+
+    background-image: url('Homepage Photos/eventsImg.jpg');
+    z-index: 46;
+
+}
+
+.parent {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+
+
+}
+
+
+.child {
+
+    display:flex;
+    position: absolute;
+}
+
+
+.welcomeMsg {
+
+    height: 10;
+    width: 300;
+    font-size:2em ;
+    font-weight: 700 !important;
+    top: 17%;
+    color: white !important;
+    z-index: 50;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    
+}
+
+.find-out-more {
+
+    width: 260;
+    height: 65;
+    justify-content: center;
+    top: 69%;
+    border-radius: 37px;
+    margin-top: 0 !important;
+    font-weight: 700;
+    z-index: 50;
+    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56);
+
+}
+
+.find-out-more:hover {
+
+    background-color: #B69445 !important; 
+    color: white;
+
+}
+
+.find-out-more:active {
+
+    background-color: #B69445 !important; 
+    color: white;
+
+}
+
+.colour.text-main {
+
+   color: FFDB89;
+
+}
+
+img {
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover !important;
+
+
+}
+
+        /* Carousel */
+
+        .carousel-indicators {
+
+            margin: 20px auto !important;
+            
+
+        }
+    
+        .carouselsize {
+            width:100%;
+            height:450px;
+            opacity:1.0;
+            object-fit:contain !important;
+        }  
+            
+        .carouselcaptionbox {
+            background-color:rgba(0,0,0,0.7);
+            padding-bottom: 10px; 
+            background-color:rgba(0,0,0,0);
+            }
+
+        .container {
+
+            padding:0 !important;
+            margin: 0 !important;
+
+        }
+
+        .carousel-control {
+
+            z-index: 50 !important;
+
+        }
+
+        .dot {
+
+            margin: 0 10px !important;
+
+        }
+
+.centreGrid {
+
+    display: grid;
+    place-items: center;
+    height:100%;
+    text-align: center;
+
+}
+
+.content {
+
+    display:flex;
+    flex-direction: column;
+    background-color: #ebdbb8;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.swin.gradient {
+   
+    background: linear-gradient(180deg,#fce9bd, white);
+
+}
+
+.button {
+
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 2em;
+
+}
+
+button {
+
+    transition: background-color 0.3s;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hamburger {
+
+    background-color: white !important;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+
+}
+
+.hamburger:active {
+
+    border:#834546;
+
+}
+
+
+.flex-container {
+    display: flex; /* Activates Flexbox on this container */
+    background-color: lightgray;
+    padding: 10px;
+
+}
+
+.colour.main {
+
+    background-color: #EFC054;
+
+}
+
+.accentColour {
+
+    color: #7E4E54;
+    font-weight: 600 !important;
+}
+
+.centred {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.background.coloured {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    max-width: 800;
+    
+}
+
+.background {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 40px 50px;
+    background-color: white;
+    max-width: 800;
+    
+}
+
+button.social-media {
+
+    height: 50;
+    width: 50;
+    margin: 17;
+    color: white;
+    background-color: white;
+    padding: 0;
+}
+
+.ministry-glyph {
+
+    font-size: 1.5em;
+
+}
+
+li.ministry {
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 800;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+
+    font-size:1.8em ;
+    font-weight: 700;
+    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56);
+    object-fit: contain;
+    background-size:cover;
+    background-position: center;
+
+}
+
+a.ministry {
+
+    color:white !important;
+    transition: background-color 0.2s ease-out;
+
+}
+
+.imagePlaceholder {
+
+    background-color: maroon;
+
+}
+
+.googleMapsSwin {
+
+    background-image: url('Homepage Photos/googleMapsSwin.jpg');
+    background-size:cover;
+    background-position: center;
+    display:flex; 
+    height:190; 
+    width: 100%;
+
+}
+
+
+
+@media (min-width: 800px) {
+
+    .header {
+
+        height: 64px;
+
+    }
+
+    .googleMapsSwin {
+
+        height: 300; 
+
+    }
+
+    .hamburger {
+
+        height: 40px;
+        width: 40px;
+        padding: 8;
+    
+    }
+
+    .background {
+
+        font-size: 1.5em;
+        padding: 80px;
+
+    }
+
+}
+
+        

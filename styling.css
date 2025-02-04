@@ -2,6 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    
+    color: inherit;
+    text-decoration: none !important;
+
+}
+
+ul {
+
+    padding: 0;
+    margin: 0;
+}
+
 .bootstrap-container * {
     all: unset; /* Reset styles first */
     all: revert; /* Then reapply browser defaults */
@@ -42,14 +55,20 @@ h2 {
 li {
 
     margin:0 13px;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: background-color 0.3s;
 
 }
+
 
 button:active {
 
     background-color: white;
 
 }
+
 
 
 div.shadow {
@@ -157,30 +176,26 @@ a {
         }
 
         
-        .navLink {
 
-            display:flex;
+
+        .nav-link {
+
+            color: black;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
             height: 56px;
             width: 100%;
             border: 2px solid #834546;
             border-radius: 7px;
             font-size: 2em !important;
             padding: 10px !important;
-
-
-        }
-
-
-        .nav-link {
-            color: black;
-            font-size: 1.2rem;
-            text-decoration: none;
-            margin-bottom: 10px;
-            display: block;
+            cursor: pointer;
         }
 
         .nav-link:hover {
-            color: darkslategray; /* Slightly lighter hover effect */
+            color: white; /* Slightly lighter hover effect */
+            background-color: #834546;
         }
 
 .coverImage {
@@ -203,7 +218,7 @@ a {
     justify-content: center;
     max-width: 100%;
     max-height: 100%;
-
+    object-fit: contain;
 }
 
 .image.darken {
@@ -224,7 +239,35 @@ a {
 
 .ministry.image.darken:active {
 
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.ministry.service-m {
+
+    background-image: url('Homepage Photos/serviceImg.jpg');
+    z-index: 49;
+
+}
+
+.ministry.children-m {
+
+    background-image: url('Homepage Photos/childrenImg.jpg'); 
+    z-index: 48;
+
+}
+
+.ministry.worship-m {
+
+    background-image: url('Homepage Photos/worshipImg.jpg');
+    z-index: 47;
+
+}
+
+.ministry.events-album {
+
+    background-image: url('Homepage Photos/eventsImg.jpg');
+    z-index: 46;
 
 }
 
@@ -236,6 +279,8 @@ a {
     align-items: center;
     z-index: 2;
     width: 100%;
+
+
 }
 
 
@@ -423,6 +468,7 @@ button {
 .accentColour {
 
     color: #7E4E54;
+    font-weight: 600 !important;
 }
 
 .centred {
@@ -468,22 +514,13 @@ button.social-media {
     padding: 0;
 }
 
-div.ministry {
-
-    max-width: 800;
-    width: 100%;
-    background-size:cover;
-    background-position: center;
-    height: 150px;
-}
-
 .ministry-glyph {
 
     font-size: 1.5em;
 
 }
 
-button.ministry {
+li.ministry {
 
     display: flex;
     position: relative;
@@ -492,12 +529,20 @@ button.ministry {
     height: 150px;
     align-items: center;
     justify-content: center;
-    padding: 30 0;
-    color:white;
-    font-size:3em ;
+
+    font-size:1.8em ;
     font-weight: 700;
     box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56);
     object-fit: contain;
+    background-size:cover;
+    background-position: center;
+
+}
+
+a.ministry {
+
+    color:white !important;
+    transition: background-color 0.2s ease-out;
 
 }
 
@@ -509,7 +554,7 @@ button.ministry {
 
 .googleMapsSwin {
 
-    background-image: url('googleMapsSwin.jpg');
+    background-image: url('Homepage Photos/googleMapsSwin.jpg');
     background-size:cover;
     background-position: center;
     display:flex; 
