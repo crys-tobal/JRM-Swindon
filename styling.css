@@ -62,7 +62,6 @@ li {
 
 }
 
-
 button:active {
 
     background-color: white;
@@ -116,7 +115,7 @@ a {
 
     height: 80px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 3px 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -141,6 +140,13 @@ a {
     display: flex;
     font-size: 2em;
     padding: 0;
+    height: 64px; ;
+
+}
+
+.offcanvas-body {
+
+    padding: 0 0 40;
 
 }
 
@@ -539,12 +545,34 @@ li.ministry {
 
 }
 
+nav .ministry {
+
+    height: 80px;
+    font-size: 1.5em;
+
+}
+
+nav .ministry:hover {
+
+    height:150px;
+    transition: 0.3 ease-in-out;
+
+}
+
+nav .darken {
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 a.ministry {
 
     color:white !important;
     transition: background-color 0.2s ease-out;
 
 }
+
+
+
 
 .imagePlaceholder {
 
