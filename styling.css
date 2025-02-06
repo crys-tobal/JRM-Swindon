@@ -97,6 +97,12 @@ a {
 
 }
 
+.colour.main {
+
+    background-color: #EFC054;
+
+}
+
 .footer {
 
     width: 100%;
@@ -282,9 +288,24 @@ nav .ministry.image.darken:hover{
 
 }
 
+.ministry.home-p {
+
+    background-image: url('Homepage Photos/img1.jpg');
+    z-index:50;
+    cursor: pointer;
+
+}
+
 .ministry.service-m {
 
     background-image: url('Homepage Photos/serviceImg.jpg');
+    z-index: 49;
+
+}
+
+.ministry.ministries-p {
+
+    background-image: url('Homepage Photos/img2.jpg');
     z-index: 49;
 
 }
@@ -310,7 +331,19 @@ nav .ministry.image.darken:hover{
 
 }
 
+.ministry.giving-p {
 
+    background-image: url('Homepage Photos/givingImg.jpg');
+    z-index: 45;
+
+}
+
+ministry.about-p {
+
+    background-image: url('Homepage Photos/aboutImg.jpg');
+    z-index: 44;
+
+}
 
 .parent {
 
@@ -365,12 +398,14 @@ nav .ministry.image.darken:hover{
 
     background-color: #B69445; 
     color: white;
+    transition: 0.1s ease-in;
+    cursor: pointer;
 
 }
 
 .find-out-more:active {
 
-    background-color: #B69445 !important; 
+    background-color: #B69445 ; 
     color: white;
 
 }
@@ -502,11 +537,7 @@ button {
 
 }
 
-.colour.main {
 
-    background-color: #EFC054;
-
-}
 
 .accentColour {
 
