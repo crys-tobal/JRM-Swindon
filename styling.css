@@ -24,8 +24,15 @@ a {
 
 ul {
 
-    padding: 0;
+    width:100%; 
     margin: 0;
+    padding: 0 !important;
+}
+
+nav ul {
+
+    padding-left: 0 !important;
+
 }
 
 .bootstrap-container * {
@@ -67,7 +74,6 @@ h2 {
 
 li {
 
-    margin:0 13px;
     border: 0;
     padding: 0;
     text-decoration: none;
@@ -94,6 +100,16 @@ a {
     display:flex;
     width: 100%;
     justify-content: center;
+
+}
+
+nav {
+
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -163,9 +179,28 @@ a {
 
 }
 
+    @media (max-width:800px) {
+
+        .offcanvas-header {
+
+            height: 80px; ;
+
+        }
+    }
+
+.offcanvas {
+
+
+
+}
+
 .offcanvas-body {
 
-    padding: 0 0 40;
+    overflow-y: auto;
+    max-height: 100vh;
+    display: block;
+    flex-direction: column;
+    padding: 0;
 
 }
 
@@ -203,30 +238,6 @@ a {
                 --bs-offcanvas-width: 600;
 
             }
-
-        }
-
-        
-
-
-        .nav-link {
-
-            color: black;
-            text-decoration: none;
-            margin-bottom: 10px;
-            display: block;
-            height: 56px;
-            width: 100%;
-            border: 2px solid #834546;
-            border-radius: 7px;
-            font-size: 2em;
-            padding: 10px;
-            cursor: pointer;
-        }
-
-        .nav-link:hover {
-            color: white; /* Slightly lighter hover effect */
-            background-color: #834546;
         }
 
 .coverImage {
@@ -264,7 +275,7 @@ a {
 
 nav .image.darken {
 
-    background-color: rgba(61, 56, 38, 0.7);
+    background-color: rgba(78, 71, 49, 0.591);
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 
 }
@@ -278,7 +289,7 @@ nav .image.darken {
 
 nav .ministry.image.darken:hover{
 
-    background-color: rgba(57, 57, 57, 0.541);
+    background-color: rgba(123, 108, 56, 0.258);
 
 }
 
@@ -364,6 +375,17 @@ ministry.about-p {
     position: absolute;
     align-items: center;
     justify-content:center ;
+}
+
+.bottom {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin: 50 0 50;
+
 }
 
 
@@ -621,12 +643,24 @@ nav .ministry {
 
 }
 
+@media (max-width:600px) {
+
+    nav .ministry {
+
+        height: 120px;
+        font-size: 1.8em;
+        background-color: rgba(77, 69, 44, 0.4);;
+
+    }
+
+}
+
+
 nav .ministry:hover {
 
     height:150px;
 
 }
-
 
 a.ministry {
 
