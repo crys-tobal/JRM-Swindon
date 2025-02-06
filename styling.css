@@ -1,3 +1,9 @@
+:root {
+
+    --bs-body-color-rgb: rgba(0,0,0,0.9);
+
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -34,21 +40,21 @@ h5 {
 }
 
 h4 {
-    font-size: 1.8rem !important;  /* Set your preferred font size */
+    font-size: 1.8rem;  
     max-width: 400px;
 }
 
 h3, .h3 {
-    font-size: 2.5rem !important;  /* Set your preferred font size */
-    font-weight: 700 !important; /* Optionally ensure font-weight */
+    font-size: 2.5rem; 
+    font-weight: 700; 
     max-width: 400px;
 }
 
 
 h2 {
 
-    font-size: 2rem !important;
-    font-weight: 500 !important;
+    font-size: 2rem;
+    font-weight: 500;
 
 }
 
@@ -177,8 +183,14 @@ a {
 
 }
 
-        .offcanvas {
-            background-color: white;
+        @media (max-width:600px) {
+
+            .offcanvas {
+    
+                --bs-offcanvas-width: 600;
+
+            }
+
         }
 
         
@@ -194,8 +206,8 @@ a {
             width: 100%;
             border: 2px solid #834546;
             border-radius: 7px;
-            font-size: 2em !important;
-            padding: 10px !important;
+            font-size: 2em;
+            padding: 10px;
             cursor: pointer;
         }
 
@@ -237,9 +249,21 @@ a {
 
 }
 
+nav .image.darken {
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
 .ministry.image.darken:hover{
 
     background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+nav .ministry.image.darken:hover{
+
+    background-color: rgba(0, 0, 0, 0.3);
 
 }
 
@@ -277,6 +301,8 @@ a {
 
 }
 
+
+
 .parent {
 
     position: relative;
@@ -294,6 +320,8 @@ a {
 
     display:flex;
     position: absolute;
+    align-items: center;
+    justify-content:center ;
 }
 
 
@@ -302,9 +330,9 @@ a {
     height: 10;
     width: 300;
     font-size:2em ;
-    font-weight: 700 !important;
-    top: 17%;
-    color: white !important;
+    font-weight: 700;
+    top: 35%;
+    color: white;
     z-index: 50;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
     
@@ -317,7 +345,7 @@ a {
     justify-content: center;
     top: 69%;
     border-radius: 37px;
-    margin-top: 0 !important;
+    margin-top: 0;
     font-weight: 700;
     z-index: 50;
     box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56);
@@ -326,7 +354,7 @@ a {
 
 .find-out-more:hover {
 
-    background-color: #B69445 !important; 
+    background-color: #B69445; 
     color: white;
 
 }
@@ -474,7 +502,7 @@ button {
 .accentColour {
 
     color: #7E4E54;
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 .centred {
@@ -549,24 +577,20 @@ nav .ministry {
 
     height: 80px;
     font-size: 1.5em;
+    transition: height 300ms ease-out;
 
 }
 
 nav .ministry:hover {
 
     height:150px;
-    transition: 0.3 ease-in-out;
 
 }
 
-nav .darken {
-
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 a.ministry {
 
-    color:white !important;
+    color:white;
     transition: background-color 0.2s ease-out;
 
 }
