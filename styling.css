@@ -5,7 +5,14 @@
 }
 
 html {
+
     scroll-behavior: smooth;
+}
+
+.content {
+
+    color: #f8f8f8;
+
 }
 
 a {
@@ -251,7 +258,9 @@ a {
 
 nav .image.darken {
 
-    background-color: rgba(126, 116, 66, 0.6);
+    background-color: rgba(61, 56, 38, 0.7);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
 }
 
 
@@ -263,7 +272,7 @@ nav .image.darken {
 
 nav .ministry.image.darken:hover{
 
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(57, 57, 57, 0.541);
 
 }
 
