@@ -26,7 +26,7 @@ ul {
 
     width:100%; 
     margin: 0;
-    padding: 0 !important;
+    padding: 0;
 }
 
 nav ul {
@@ -110,6 +110,12 @@ nav {
     justify-content: center;
     align-items: center;
 
+
+}
+
+.nav-menu {
+
+    height: 470px;
 
 }
 
@@ -379,12 +385,9 @@ ministry.about-p {
 
 .bottom {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
-    margin: 50 0 50;
+
+    margin: 50 0;
+    padding: 20 0 20;
 
 }
 
@@ -442,7 +445,7 @@ img {
 
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover !important;
+    object-fit: cover;
 
 
 }
@@ -650,6 +653,12 @@ nav .ministry {
         height: 120px;
         font-size: 1.8em;
         background-color: rgba(77, 69, 44, 0.4);;
+
+    }
+
+    .nav-menu {
+
+        height: 600;
 
     }
 
