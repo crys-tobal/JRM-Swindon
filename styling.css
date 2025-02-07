@@ -39,6 +39,8 @@ ul {
     width:100%; 
     margin: 0;
     padding: 0;
+    list-style: none;
+
 }
 
 nav ul {
@@ -52,7 +54,9 @@ nav ul {
     all: revert; /* Then reapply browser defaults */
 }
 
-h1 {
+h2 {
+
+    font-size: 24px;
 
 }
 
@@ -612,6 +616,7 @@ button {
     padding: 40px 50px;
     background-color: white;
     max-width: 800;
+    font-size: 1.5em;
     
 }
 
@@ -736,7 +741,7 @@ a.ministry {
 
     .background {
 
-        font-size: 1.5em;
+
         padding: 80px;
 
     }
