@@ -196,15 +196,15 @@ div.flex-row {
     display: flex;
     font-size: 2em;
     padding: 0;
-    height: 64px; ;
+    height: 80px; 
 
 }
 
-    @media (max-width:800px) {
+    @media (min-width:800px) {
 
         .offcanvas-header {
 
-            height: 80px; ;
+            height: 64px; 
 
         }
     }
