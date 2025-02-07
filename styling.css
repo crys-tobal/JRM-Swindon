@@ -54,6 +54,12 @@ nav ul {
     all: revert; /* Then reapply browser defaults */
 }
 
+h1 {
+
+    font-size: 32px;
+
+}
+
 h2 {
 
     font-size: 24px;
@@ -271,9 +277,18 @@ div.flex-row {
     object-fit: contain;
 }
 
+.subtitle {
+
+    max-width: 300px; 
+    font-size: 1.5em; 
+    text-align: initial;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
+}
+
 .image.darken {
 
-    background-color: rgba(100,80,40,0.3);
+    background-color: rgba(112, 84, 28, 0.331);
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -283,19 +298,30 @@ div.flex-row {
 
 nav .image.darken {
 
-    background-color: rgba(78, 71, 49, 0.591);
+
+    background-color: rgba(134, 121, 75, 0.477);
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 
 }
 
+    @media (min-width: 800px) {
+        
+        nav .image.darken {
 
-.ministry.image.darken:hover{
+            background-color: rgba(78, 71, 49, 0.591);
+
+        }
+
+    }
+
+
+.ministry.image.darken:hover {
 
     background-color: rgba(255, 255, 255, 0.3);
 
 }
 
-nav .ministry.image.darken:hover{
+nav .ministry.image.darken:hover {
 
     background-color: rgba(123, 108, 56, 0.258);
 
@@ -314,18 +340,27 @@ nav .ministry.image.darken:hover{
 
 }
 
-.ministries-p-text {
 
-   color: white;
-   z-index: 50;
-
-}
 
 .ministry.ministries-p {
 
     background-image: url('Homepage Photos/img2.jpg');
     z-index: 49;
+    max-width: 100%;
 
+}
+
+div.ministry.ministries-p {
+
+    height:300px;
+
+}
+
+.ministries-p-text {
+
+    color: white;
+    z-index: 50;
+ 
 }
 
 .ministry.home-p {
