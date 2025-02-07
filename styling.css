@@ -106,9 +106,21 @@ a {
 nav {
 
     display: block;
+
+}
+
+div {
+
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
+}
+
+div.flex-row {
+
+    flex-direction: row;
 
 
 }
@@ -197,7 +209,6 @@ nav {
 .offcanvas {
 
 
-
 }
 
 .offcanvas-body {
@@ -215,6 +226,12 @@ nav {
     height: 50px !important;
     width: 50px !important; 
     margin: 10px 20px !important;
+
+}
+
+.showing {
+
+    align-items: stretch;
 
 }
 
@@ -246,18 +263,6 @@ nav {
             }
         }
 
-.coverImage {
-
-    display:flex;
-    align-items: center;
-    width: 100%;
-    Height: 450px;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    color: white;
-    
-}
 
 .image {
 
@@ -385,7 +390,10 @@ ministry.about-p {
 
 .bottom {
 
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 50 0;
     padding: 20 0 20;
 
