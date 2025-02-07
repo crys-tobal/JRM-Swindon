@@ -3,13 +3,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jesus Reigns Ministries Swindon - Welcome!</title>
+        <meta name="description" content="Jesus Reigns Ministries Swindon - Join our vibrant community in worship and service">
+        <title>Jesus Reigns Ministries Swindon</title>
         <link rel="icon" href="JRM.ico" type="image/x-icon">
 
 
         <!-- Google Fonts (Montserrat) -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
+    
+        <!-- jQuery (needed for Bootstrap 3 carousel) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+        <!-- Bootstrap 3 CSS (needed for carousel) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+        <!-- Bootstrap 3 JS (required for carousel functionality) -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
         <!-- Bootstrap 5 CSS (needed for overlay) -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -20,30 +30,150 @@
         <link rel="stylesheet" href="styling.css">
     </head>
 
-    <h1>
+<div class="content">
 
-        Meet the Ministries
+    <header class="header">
 
-    </h1>
+           
 
-    <ul>
+        <a class="JRMLogo image" href="#">
 
-        <li id="service-m" style="height: 900px;">
-            Services
-        </li>
+            <img src="Homepage Photos/JRMLogo.png" alt="Logo for JRM UK" title="Click here to see other outreaches">
 
-        <li id="children-m" style="height: 900px;">
-            Children's Ministry
-        </li>
+        </a>
+        
+        
+        <a class=" JRMSwinLogo image button back-to-top" alt="Logo for JRM Swindon" title="Click here to return to Homepage" href="#top">
+            <img src="Homepage Photos/JRMSwinLogo.png">
 
-        <li id="worship-m" style="height: 900px;">
-            Worhsip Ministry
-        </li>
+        </a>
 
-        <li>
+
+        <a class="btn btn-primary button flex-item hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#navigationOverlay" aria-controls="navigationOverlay" title="Click to open Navigation Menu">
+
+            <img src="Homepage Photos/hamburger.png" alt="Navigation Menu">
+
+        </a>
+
+                                <!-- Offcanvas Navigation -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="navigationOverlay" aria-labelledby="navigationOverlayLabel">
+                    <div class="offcanvas-header flex-row">
+                       
+                             <img src="Homepage Photos/JRMSwinLogo.png"> 
+                    
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <nav id="nav-menu">
+                            <ul id="menu-items" class="nav-menu">
+
+                                <li class="parent ministry home-p" alt="Click here to learn about our Services!">
+                                  
+                                    <a class="ministry image darken" title="Click here to go to the Home Page" href="index.html">
+                    
+                                      Home  <span class="glyphicon glyphicon-chevron-right ministry-glyph" ></span>
+                    
+                                    </a>
+                    
+                                </li>
+
+                                <li class="parent ministry ministries-p" alt="Click here to learn about our Services!">
+                                  
+                                    <a class="ministry image darken"  title="Click here to learn about our Services!" href="ministries.html">
+                    
+                                      Meet the Ministries  <span class="glyphicon glyphicon-chevron-right ministry-glyph" ></span>
+                    
+                                    </a>
+                    
+                                </li>
+                    
+                                <li class="parent ministry events-album" alt="Click here to learn more about our previous events!">
+                                    
+                                    <a class="ministry image darken" title="Click here to learn more about our previous events!" href="events.html">
+                    
+                                        Events Album  <span class="glyphicon glyphicon-chevron-right ministry-glyph"></span>
+                    
+                                    </a>
+                                </li>
+
+                                                        
+                                <li class="parent ministry giving-p" alt="Click here to learn about how to support us online!">
+                    
+                                    <a class="ministry image darken" title="Click here to learn about how to support us online!" href="giving.html">
+                    
+                                        Giving Online  <span class="glyphicon glyphicon-chevron-right ministry-glyph"></span>
+                    
+                                    </a>
+                                </li>
+                    
+                                <li class="parent ministry about-p" alt="Click here to learn more about us!">
+                    
+                                    <a class="ministry image darken" title="Click here to learn more about us!" href="about.html">
+                    
+                                        About Us  <span class="glyphicon glyphicon-chevron-right ministry-glyph"></span>
+                    
+                                    </a>
+                                </li>                                
+                        </nav>
+
+                        <div class="bottom">
+                            <h4 style="font-weight: 700;"> Service every Sunday at 10am </h4> 
+                            <h4 style="margin: 20 0 50;">
+                                <span class="accentColour">Rodbourne Cheney  Nursery,</span>  <br>
+                                Broadway, <br>
+                                Swindon  <br>
+                                <span style="font-weight: 700; line-height: 150%;">SN25 3BN</span>
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+
+    </header>
+
+    <div class="parent image ministry ministries-p" style="height: 500px;">
+
+    
+        <div class="child ministries-p-text" >
             
-        </li>
+            <div class="flex-row">
+                <h1 class="bold" >
+
+                Meet the Ministries 
+
+                </h1>
+
+                <h1 style="max-width: 300px; font-size: 2.2em; ">
+
+                How our Service ministry, Worship ministry, and Children's Ministry can change your life!
+
+                </h1>
+            </div>
+        </div>
+
+        <div id="Ministries-image-filter" class="child image darken"></div> 
+
+    </div>
+
+    
+
+
+        <div id="service-m" class="background" style="height: 900px;">
+           <h2> Services </h2>
+        </div>
+
+        <div id="children-m" class="background coloured" style="height: 900px;">
+           <h2> Children's Ministry </h2>
+        </div>
+
+        <div id="worship-m" class="background" style="height: 900px;">
+            <h2> Worhsip Ministry </h2>
+        </div>
+
+
 
 
     </ul>
+
+</div>
 </html>

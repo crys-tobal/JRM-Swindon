@@ -307,6 +307,27 @@ nav .ministry.image.darken:hover{
 
 }
 
+.ministries-image-main {
+
+    background-image: url('ministriesImg1.jpg');
+    height: 300px;
+
+}
+
+.ministries-p-text {
+
+   color: white;
+   z-index: 50;
+
+}
+
+.ministry.ministries-p {
+
+    background-image: url('Homepage Photos/img2.jpg');
+    z-index: 49;
+
+}
+
 .ministry.home-p {
 
     background-image: url('Homepage Photos/img1.jpg');
@@ -322,12 +343,7 @@ nav .ministry.image.darken:hover{
 
 }
 
-.ministry.ministries-p {
 
-    background-image: url('Homepage Photos/img2.jpg');
-    z-index: 49;
-
-}
 
 .ministry.children-m {
 
@@ -636,7 +652,7 @@ a.social-media {
 
 }
 
-li.ministry {
+.ministry {
 
     display: flex;
     position: relative;
@@ -648,7 +664,7 @@ li.ministry {
 
     font-size:1.8em ;
     font-weight: 700;
-    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.272);
     object-fit: contain;
     background-size:cover;
     background-position: center;
@@ -660,6 +676,7 @@ nav .ministry {
     height: 80px;
     font-size: 1.5em;
     transition: height 300ms ease-out;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.272);
 
 }
 
