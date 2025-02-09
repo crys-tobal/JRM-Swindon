@@ -485,7 +485,7 @@ nav .image.darken {
 
 }
 
-.ministries-m {
+.ministries-spacer-height {
 
     height: 80px;
 
@@ -534,7 +534,6 @@ nav .ministry.image.darken:hover {
 div.ministry.ministries-p {
 
     height:350px;
-    box-shadow: none;
 
 }
 
@@ -841,7 +840,7 @@ button {
 
     width: 100%;
     text-align: center;
-    padding: 40px;
+    padding: 50px 40px 40px;
     background-color: white;
     max-width: 800;
     font-size: 1.5em;
@@ -886,6 +885,18 @@ a.social-media {
 
 }
 
+.bottom-shadow {
+
+    box-shadow: 0px 12px 8px -3px rgba(0, 0, 0, 0.3);
+
+}
+
+.no-shadow {
+
+    box-shadow: none;
+
+}
+
 
 
 @media (min-width: 800px) {
@@ -913,7 +924,7 @@ a.social-media {
     .background {
 
 
-        padding: 80px;
+        padding: 80px 60px 60px;
 
     }
 
