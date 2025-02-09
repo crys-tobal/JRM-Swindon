@@ -275,9 +275,6 @@ div.flex-row {
 
 .image {
 
-    display:flex;
-    align-items: center;
-    justify-content: center;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -405,6 +402,7 @@ nav .ministry.image.darken:hover {
 
 
 
+
 .ministry.ministries-p {
 
     background-image: url('Homepage Photos/img2.jpg');
@@ -458,7 +456,7 @@ div.ministry.ministries-p {
 
 }
 
-.ministry.events-album {
+.ministry.events-p {
 
     background-image: url('Homepage Photos/eventsImg.jpg');
     z-index: 46;
@@ -472,7 +470,7 @@ div.ministry.ministries-p {
 
 }
 
-ministry.about-p {
+.ministry.about-p {
 
     background-image: url('Homepage Photos/aboutImg.jpg');
     z-index: 44;
