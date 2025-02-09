@@ -284,10 +284,12 @@ div.flex-row {
 
     max-width: 300px; 
     font-size: 1.5em; 
-    text-align: initial;
+    text-align: center;
     line-height: 1.2;
     z-index: 70;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+    margin: 10 30;
+    
 
 }
 
@@ -393,12 +395,6 @@ nav .ministry.image.darken:hover {
 
 }
 
-.ministries-image-main {
-
-    background-image: url('ministriesImg1.jpg');
-    height: 300px;
-
-}
 
 .ministry.ministries-p {
 
@@ -460,10 +456,11 @@ div.ministry.ministries-p {
 
 }
 
-div .ministry.events-p {
+div.ministry.events-p {
 
     z-index: 49;
     max-width: 100%;
+    height: 300px;
 
 }
 
