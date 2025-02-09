@@ -400,9 +400,6 @@ nav .ministry.image.darken:hover {
 
 }
 
-
-
-
 .ministry.ministries-p {
 
     background-image: url('Homepage Photos/img2.jpg');
@@ -460,6 +457,13 @@ div.ministry.ministries-p {
 
     background-image: url('Homepage Photos/eventsImg.jpg');
     z-index: 46;
+
+}
+
+div .ministry.events-p {
+
+    z-index: 49;
+    max-width: 100%;
 
 }
 
