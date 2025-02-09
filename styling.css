@@ -180,7 +180,7 @@ div.flex-row {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 5;
+    padding: 0;
     border-radius: 5px;
     transition: background-color 0.3s;
     border: 2px solid rgba(0, 0, 0, 0);
@@ -342,6 +342,7 @@ a.ministry {
     width: 100px;
     background-color: white; 
     text-align: center;
+    padding: 5px 0px;
 
 }
 
