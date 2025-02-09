@@ -16,6 +16,12 @@ html {
 
 }
 
+.container {
+
+    max-width: 100%;
+
+}
+
 a {
     
     color: inherit;
@@ -293,6 +299,12 @@ div.flex-row {
     height: 100%;
     z-index: 1;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+#Homepage-image-filter {
+
+    max-width: 800px;
 
 }
 
