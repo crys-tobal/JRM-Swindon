@@ -214,6 +214,71 @@ div.flex-row {
 
 }
 
+.ministry-glyph {
+
+    font-size: 1.5em;
+
+}
+
+.ministry {
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 800;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+
+    font-size:1.8em ;
+    font-weight: 700;
+    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.272);
+    object-fit: contain;
+    background-size:cover;
+    background-position: center;
+
+}
+
+nav .ministry {
+
+    height: 80px;
+    font-size: 1.5em;
+    transition: height 300ms ease-out;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.272);
+
+}
+
+@media (max-width:600px) {
+
+    nav .ministry {
+
+        height: 120px;
+        font-size: 1.8em;
+        background-color: rgba(77, 69, 44, 0.4);;
+
+    }
+
+    .nav-menu {
+
+        height: 600;
+
+    }
+
+}
+
+nav .ministry:hover {
+
+    height:150px;
+
+}
+
+a.ministry {
+
+    color:white;
+    transition: background-color 0.2s ease-out;
+
+}
+
 
 .offcanvas-header {
 
@@ -385,7 +450,7 @@ nav .image.darken {
 
 }
 
-#service-m-title {
+.ministries-m-title {
 
     padding: 20px 30px 10px;
 
@@ -393,34 +458,34 @@ nav .image.darken {
 
 @media (min-width: 400px){
 
-    #service-m-title {
+    .ministries-m-title {
 
         width: 160px;
     }
 }
 
-#service-m-description {
+.ministries-m-description {
 
     font-size: 0.85em;
     font-weight: 500;
 
 }
 
-#ministries-m-div {
+.ministries-m-div {
 
     height: 300px;
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 420px) {
 
-    #service-m-div {
+    .ministries-m-div {
         height: 230px;
     }
 
 }
 
-#service-m {
+.ministries-m {
 
     height: 80px;
 
@@ -468,7 +533,7 @@ nav .ministry.image.darken:hover {
 
 div.ministry.ministries-p {
 
-    height:300px;
+    height:350px;
     box-shadow: none;
 
 }
@@ -801,73 +866,6 @@ a.social-media {
     background-color: white;
     padding: 0;
 }
-
-.ministry-glyph {
-
-    font-size: 1.5em;
-
-}
-
-.ministry {
-
-    display: flex;
-    position: relative;
-    width: 100%;
-    max-width: 800;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-
-    font-size:1.8em ;
-    font-weight: 700;
-    box-shadow: 0px 14px 23px rgba(0, 0, 0, 0.272);
-    object-fit: contain;
-    background-size:cover;
-    background-position: center;
-
-}
-
-nav .ministry {
-
-    height: 80px;
-    font-size: 1.5em;
-    transition: height 300ms ease-out;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.272);
-
-}
-
-@media (max-width:600px) {
-
-    nav .ministry {
-
-        height: 120px;
-        font-size: 1.8em;
-        background-color: rgba(77, 69, 44, 0.4);;
-
-    }
-
-    .nav-menu {
-
-        height: 600;
-
-    }
-
-}
-
-
-nav .ministry:hover {
-
-    height:150px;
-
-}
-
-a.ministry {
-
-    color:white;
-    transition: background-color 0.2s ease-out;
-
-}
-
 
 
 
