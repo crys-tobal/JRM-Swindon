@@ -326,6 +326,24 @@ nav .image.darken {
 
     }
 
+#service-m {
+
+    height: 150px;
+
+
+}
+
+#children-m {
+
+
+
+}
+
+#worship-m{
+
+
+
+}
 
 .ministry.image.darken:hover {
 
@@ -657,29 +675,23 @@ button {
 
 }
 
-.background.coloured {
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    padding: 40px 0;
-    max-width: 800;
-    
-}
-
 .background {
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
     text-align: center;
-    padding: 40px 50px;
+    padding: 40px;
     background-color: white;
     max-width: 800;
     font-size: 1.5em;
+    
+}
+
+.background.coloured {
+
+
+    width: 100%;
+
+
     
 }
 
