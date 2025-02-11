@@ -421,7 +421,12 @@ a.ministry {
 
 #Homepage-image-filter {
 
-    max-width: 800px;
+
+}
+
+.carousel-control {
+
+    width: 30%;
 
 }
 
@@ -626,6 +631,7 @@ div.ministry.events-p {
     position: absolute;
     align-items: center;
     justify-content:center ;
+
 }
 
 .bottom {
