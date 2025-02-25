@@ -543,6 +543,32 @@ div.ministry.ministries-p {
 
 }
 
+.ministry-CTA {
+
+    padding: 20px;
+    margin: 40px 20px 0px;
+    background-color: #EFC054;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.5em;
+    width: fit-content;
+
+}
+
+.ministry-CTA.white {
+
+    background-color: white;
+
+}
+
+.ministry-CTA:hover {
+
+    background-color: #B69445;
+    color: white;
+
+}
+
+
 .ministries-p-text {
 
     color: white;
