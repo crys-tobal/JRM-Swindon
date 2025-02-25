@@ -456,7 +456,7 @@ nav .image.darken {
 
 }
 
-.ministries-m-title {
+.banner-picture-title {
 
     padding: 20px 30px 10px;
 
@@ -464,20 +464,20 @@ nav .image.darken {
 
 @media (min-width: 400px){
 
-    .ministries-m-title {
+    .banner-picture-title {
 
         width: 160px;
     }
 }
 
-.ministries-m-description {
+.banner-picture-description {
 
     font-size: 0.85em;
     font-weight: 500;
 
 }
 
-.ministries-m-div {
+.banner-picture-div {
 
     height: 300px;
 
@@ -485,7 +485,7 @@ nav .image.darken {
 
 @media (min-width: 420px) {
 
-    .ministries-m-div {
+    .banner-picture-div {
         height: 230px;
     }
 
