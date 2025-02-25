@@ -456,40 +456,62 @@ nav .image.darken {
 
 }
 
-.banner-picture-title {
+.banner-picture.title {
 
-    padding: 20px 30px 10px;
+    margin-right:30px;
 
 }
 
-@media (min-width: 400px){
+    @media (min-width: 400px){
 
-    .banner-picture-title {
+        .banner-picture.title {
 
-        width: 160px;
+            width: 160px;
+        }
     }
-}
 
-.banner-picture-description {
+.banner-picture.description {
 
     font-size: 0.85em;
     font-weight: 500;
 
-}
-
-.banner-picture-div {
-
-    height: 300px;
 
 }
 
-@media (min-width: 420px) {
+    @media (min-width: 600px){
 
-    .banner-picture-div {
-        height: 230px;
+        .banner-picture.description {
+             width: 400px;
+
+        }
     }
 
+.banner-picture.sub-description {
+
+    font-size: 0.5em;
+    font-weight: 300;
+    border: 2px solid #f8f8f8;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 90px;
+
 }
+
+.banner-picture.div {
+
+   min-height: 300px;
+   height: inherit;
+
+}
+
+    @media (min-width: 420px) {
+
+        .banner-picture.div {
+            min-height: 230px;
+        }
+
+    }
 
 .ministries-spacer-height {
 
@@ -659,6 +681,24 @@ div.ministry.events-p {
     justify-content:center ;
 
 }
+
+.child.end {
+
+    margin-left: inherit;
+    margin-top: 70%;
+
+}
+
+    @media (min-width: 420px) {
+
+        .child.end {
+
+            margin-left: 80%;
+            margin-top: inherit;
+        
+        }
+
+    }
 
 .bottom {
 
