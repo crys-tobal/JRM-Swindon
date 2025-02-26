@@ -16,6 +16,12 @@ html {
 
 }
 
+.content-max-width {
+
+    max-width: 800px !important;
+
+}
+
 .container {
 
     max-width: 100%;
@@ -93,7 +99,6 @@ button:active {
 
     background-color: white;
     width: 100%;
-    max-width: 800;
 
 }
 
@@ -225,7 +230,6 @@ div.flex-row {
     display: flex;
     position: relative;
     width: 100%;
-    max-width: 800;
     height: 150px;
     align-items: center;
     justify-content: center;
@@ -463,7 +467,6 @@ nav .image.darken {
 div.banner-picture {
 
     padding: 25px 0px;
-    max-width: 800px;
 
 }
 
@@ -814,6 +817,23 @@ img {
 
 }
 
+.event-thumbnail {
+
+    margin: 4px 4px 0px 0px;
+    aspect-ratio: 1/1;
+    width: 50;
+
+}
+
+.event-picture-container{
+
+    background-color: white;
+    padding: 0px 0px 4px 4px;
+    width: 100%;
+
+}
+
+
         /* Carousel */
 
         .carousel-indicators {
@@ -888,6 +908,24 @@ img {
     background-image: url('Event Photos/SwinEvent1.jpg');
 
 }
+
+    .swin-event1-pic1 {
+
+        background-image: url('Event Photos/SwinEvent1Pic1.jpg');
+
+    }
+
+    .swin-event1-pic2 {
+
+        background-image: url('Event Photos/SwinEvent1Pic2.jpg');
+
+    }
+
+    .swin-event1-pic3 {
+
+        background-image: url('Event Photos/SwinEvent1Pic3.jpg');
+
+    }
 
 .button {
 
