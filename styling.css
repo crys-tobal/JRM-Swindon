@@ -129,7 +129,7 @@ div.flex-row {
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 460px) {
     
     .desktop-flex-row {
 
@@ -371,7 +371,7 @@ a.ministry {
     line-height: 1.2;
     z-index: 70;
     text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.9);
-    margin: 10 30;
+    margin: 10 0;
     
 
 }
@@ -454,27 +454,45 @@ nav .image.darken {
     height: 250px;
     box-shadow: none;
 
+
 }
+
+div.banner-picture {
+
+    padding: 40px 0px;
+    max-width: 800px;
+
+}
+
+    @media (min-with:400px) {
+
+        div.banner-picture {
+
+            padding: 40px 0px;
+        
+        }
+
+    }
 
 .banner-picture.title {
 
-    margin-right:30px;
-
+    margin: 0 15;
 }
 
-    @media (min-width: 400px){
+    @media (min-width: 460px){
 
         .banner-picture.title {
 
-            width: 160px;
+            max-width: 120px;
+
         }
     }
 
 .banner-picture.description {
 
-    font-size: 0.85em;
-    font-weight: 500;
 
+    font-weight: 200;
+    margin: 15;
 
 }
 
@@ -488,15 +506,24 @@ nav .image.darken {
 
 .banner-picture.sub-description {
 
-    font-size: 0.5em;
+    font-size: 0.9em;
     font-weight: 300;
     border: 2px solid #f8f8f8;
     padding: 5px;
-    margin: 5px;
+    margin: 15;
     border-radius: 10px;
-    width: 90px;
+
 
 }
+
+    @media (min-width: 460px){
+
+        .banner-picture.banner-picture.sub-description {
+
+            max-width: 90px;
+
+        }
+    }
 
 .banner-picture.div {
 
@@ -508,7 +535,7 @@ nav .image.darken {
     @media (min-width: 420px) {
 
         .banner-picture.div {
-            min-height: 230px;
+          
         }
 
     }
@@ -847,6 +874,12 @@ img {
 .swin.gradient {
    
     background: linear-gradient(180deg,#fce9bd, white);
+
+}
+
+.swin-event1 {
+
+    background-image: url('Event Photos/SwinEvent1.jpg');
 
 }
 
