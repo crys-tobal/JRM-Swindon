@@ -369,7 +369,7 @@ a.ministry {
 .subtitle {
 
     max-width: 600px; 
-    font-size: 1.5em; 
+
     text-align: center;
     line-height: 1.2;
     z-index: 70;
@@ -462,7 +462,7 @@ nav .image.darken {
 
 div.banner-picture {
 
-    padding: 40px 0px;
+    padding: 25px 0px;
     max-width: 800px;
 
 }
@@ -493,8 +493,8 @@ div.banner-picture {
 
 .banner-picture.description {
 
-
     font-weight: 200;
+    font-size: 1.8em;
     margin: 15;
 
 }
@@ -509,7 +509,8 @@ div.banner-picture {
 
 .banner-picture.sub-description {
 
-    font-size: 0.9em;
+
+    font-size: 1.5em;
     font-weight: 300;
     border: 2px solid #f8f8f8;
     padding: 5px;
@@ -530,7 +531,7 @@ div.banner-picture {
 
 .banner-picture.div {
 
-   min-height: 300px;
+
    height: inherit;
 
 }
@@ -604,6 +605,7 @@ div.ministry.ministries-p {
     font-weight: 700;
     font-size: 1.5em;
     width: fit-content;
+    transition: 100ms ease-in;
 
 }
 
@@ -991,6 +993,7 @@ a.social-media {
     display:flex; 
     height:190; 
     width: 100%;
+    z-index: 50;
 
 }
 
