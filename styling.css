@@ -18,7 +18,7 @@ html {
 
 .content-max-width {
 
-    max-width: 800px !important;
+    max-width: 1000px !important;
 
 }
 
@@ -992,7 +992,6 @@ button {
     text-align: center;
     padding: 50px 40px 40px;
     background-color: white;
-    max-width: 800;
     font-size: 1.5em;
     
 }
