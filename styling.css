@@ -13,6 +13,7 @@ html {
 .content {
 
     color: #f8f8f8;
+    z-index: -2;
 
 }
 
@@ -90,6 +91,12 @@ li {
     padding: 0;
     text-decoration: none;
     transition: background-color 0.3s;
+
+}
+
+footer {
+
+
 
 }
 
@@ -725,7 +732,7 @@ div.ministry.events-p {
     @media (min-width:540px){
 
         .about-portrait-container {
-            
+
              flex-direction: row;
              align-items: start;
         }
@@ -1256,6 +1263,12 @@ a.social-media {
 }
 
 .top-shadow {
+
+    box-shadow: 0px 24px 15px -14px rgba(0, 0, 0, 0.301) inset;
+
+}
+
+.image.top-shadow {
 
     box-shadow: 0px 24px 15px -14px rgba(0, 0, 0, 0.7) inset;
 
