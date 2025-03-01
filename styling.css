@@ -1513,12 +1513,14 @@ li.top-shadow {
   .close {
     color: white;
     position: absolute;
-    top: 15%;
-    right: 10%;
+    top: 14%;
+    right: 5%;
     font-size: 50px;
     font-weight: bold;
     z-index: 100;
     opacity: 1;
+    width: 80px;
+    aspect-ratio: 1;
   }
   
   .close:hover,
