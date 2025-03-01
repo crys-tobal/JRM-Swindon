@@ -1006,10 +1006,10 @@ img {
 
 .event-thumbnail {
 
-    margin: 4px 4px 0px 0px;
+    padding: 4px 4px 0px 0px;
     aspect-ratio: 1/1;
     width: 70px;
-    border-radius: 8px;
+    border-radius: 16px;
     transition: 300ms ease-in-out;
 
 }
@@ -1457,10 +1457,7 @@ li.top-shadow {
 
 } 
 
-  
-  .row > .column {
-    padding: 0 8px;
-  }
+
   
   .row:after {
     content: "";
@@ -1470,8 +1467,7 @@ li.top-shadow {
   
   .column {
     float: left;
-    width: 25%;
-    margin-right: 15px;
+
   }
   
   /* The Modal (background) */
@@ -1601,7 +1597,7 @@ li.top-shadow {
   .caption-container {
     text-align: center;
     background-color: black;
-    padding: 2px 16px;
+    padding: 10px 16px 2px;
     color: white;
     width: 100%;
   }
@@ -1617,10 +1613,3 @@ li.top-shadow {
     opacity: 1;
   }
   
-  img.hover-shadow {
-    transition: 0.3s;
-  }
-  
-  .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
