@@ -510,11 +510,11 @@ div.banner-picture {
     margin: 0 15;
 }
 
-    @media (min-width: 460px){
+    @media (min-width: 480px){
 
         .banner-picture.title {
 
-            max-width: 120px;
+            max-width: 130px;
 
         }
     }
@@ -523,7 +523,7 @@ div.banner-picture {
 
     font-weight: 200;
     font-size: 1.8em;
-    margin: 15;
+    margin: 15 30;
 
 }
 
@@ -743,11 +743,6 @@ div.ministry.events-p {
         }
     }
 
-.giving-interactive-container {
-
-
-
-}
 
     @media (min-width:540px) {
 
@@ -1418,3 +1413,18 @@ li.top-shadow {
 }
 
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
