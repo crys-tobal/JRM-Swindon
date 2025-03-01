@@ -721,6 +721,48 @@ div.ministry.events-p {
 
 }
 
+.giving-element {
+
+    margin: 50px 40px 0px;
+
+}
+
+.giving-button {
+
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.5em;
+    width: fit-content;
+    transition: 100ms ease-in;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.56);
+
+}
+
+.giving-button:hover {
+
+   background-color:#B69445;
+
+}
+
+
+.copy-overlay {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    z-index: 1000;
+    text-align: center;
+}
+
+
 .about-portrait-container {
 
 
