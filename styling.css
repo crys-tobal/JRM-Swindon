@@ -723,14 +723,48 @@ div.ministry.events-p {
 
 .giving-element {
 
-    margin: 50px 40px 0px;
+    margin: 50px 0px 0px;
 
 }
+
+
+    @media (min-width:540px) {
+        .giving-element-title{
+
+            width: 200px;
+            margin-bottom: 0px;
+
+
+        }
+
+        .giving-element {
+
+            flex-direction: row;
+        }
+    }
+
+.giving-interactive-container {
+
+
+
+}
+
+    @media (min-width:540px) {
+
+        .giving-interactive-container {
+          
+            justify-content: start;
+            align-items: start;
+            margin-left:45px;
+
+        }
+
+    }
 
 .giving-button {
 
     padding: 10px 15px;
-    margin: 20px;
+    margin:;
     border-radius: 50px;
     font-weight: 700;
     font-size: 1.5em;
@@ -1345,7 +1379,7 @@ li.top-shadow {
 .align-start {
 
     justify-content: start;
-    align-items: center;
+    align-items: start;
 
 }
 
