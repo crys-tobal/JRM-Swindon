@@ -310,46 +310,8 @@
 
 
                         <script>
-                            function openModal() {
-                            document.getElementById("myModal").style.display = "block";
-                            }
-                            
-                            function closeModal() {
-                            document.getElementById("myModal").style.display = "none";
-                            }
-                            
-                            var slideIndex = 1;
-                            showSlides(slideIndex);
-                            
-                            function plusSlides(n) {
-                            showSlides(slideIndex += n);
-                            }
-                            
-                            function currentSlide(n) {
-                            showSlides(slideIndex = n);
-                            }
-                            
-                            function showSlides(n) {
-                            var i;
-                            var slides = document.getElementsByClassName("mySlides");
-                            var dots = document.getElementsByClassName("demo");
-                            var captionText = document.getElementById("caption");
-                            if (n > slides.length) {slideIndex = 1}
-                            if (n < 1) {slideIndex = slides.length}
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";
-                            }
-                            for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                            slides[slideIndex-1].style.display = "block";
-                            dots[slideIndex-1].className += " active";
-                            captionText.innerHTML = dots[slideIndex-1].alt;
-                            }
+               
                             </script>
-
-
-
 
 
 
@@ -389,37 +351,88 @@
         </div>
     
 
-        <div class="content-max-width event-picture-container">   
+                                                        <div class="content-max-width event-picture-container">   
+
+                                                        
+                                                        <!-- Second Slideshow -->
+                                                <div class="flex-row event-thumbnail-container">
+                                                    <div class="column">
+                                                        <img src="Event Photos/SwinEvent2Pic1.jpg" onclick="openModal2();currentSlide2(1)" class="event-thumbnail cursor">
+                                                    </div>
+                                                    <div class="column">
+                                                        <img src="Event Photos/SwinEvent2Pic2.jpg" onclick="openModal2();currentSlide2(2)" class="event-thumbnail cursor">
+                                                    </div>
+                                                    <div class="column">
+                                                        <img src="Event Photos/SwinEvent2Pic3.jpg" onclick="openModal2();currentSlide2(3)" class="event-thumbnail cursor">
+                                                    </div>
+                                                    <div class="column">
+                                                        <img src="Event Photos/SwinEvent2Pic4.jpg" onclick="openModal2();currentSlide2(4)" class="event-thumbnail cursor">
+                                                    </div>
+                                                </div>
+
+                                                <!-- Modal for Second Slideshow -->
+                                                <div id="myModal2" class="modal" style="z-index: 101;">
+                                                    <div>
+                                                        <div class="close cursor" onclick="closeModal2()">&times;</div>
+                                                        <div class="modal-content">
+                                                            <div class="flex-row lightbox-display-container">
+                                                                <div class="mySlides2">
+                                                                    <div class="numbertext">1 / 4</div>
+                                                                    <img src="Event Photos/SwinEvent2Pic1.jpg" class="album-image">
+                                                                </div>
+                                                                <div class="mySlides2">
+                                                                    <div class="numbertext">2 / 4</div>
+                                                                    <img src="Event Photos/SwinEvent2Pic2.jpg" class="album-image">
+                                                                </div>
+                                                                <div class="mySlides2">
+                                                                    <div class="numbertext">3 / 4</div>
+                                                                    <img src="Event Photos/SwinEvent2Pic3.jpg" class="album-image">
+                                                                </div>
+                                                                <div class="mySlides2">
+                                                                    <div class="numbertext">4 / 4</div>
+                                                                    <img src="Event Photos/SwinEvent2Pic4.jpg" class="album-image">
+                                                                </div>
+
+                                                                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                                                                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                                                            </div>
+
+                                                            <div class="caption-container">
+                                                                <p id="caption2"></p>
+                                                            </div>
+
+                                                            <div class="flex-row lightbox-thumbnail-container">
+                                                                <div class="column">
+                                                                    <img class="demo cursor" src="Event Photos/SwinEvent2Pic1.jpg" style="width:100%" onclick="currentSlide2(1)" alt="Swin event 1">
+                                                                </div>
+                                                                <div class="column">
+                                                                    <img class="demo cursor" src="Event Photos/SwinEvent2Pic2.jpg" style="width:100%" onclick="currentSlide2(2)" alt="Swin event 2">
+                                                                </div>
+                                                                <div class="column">
+                                                                    <img class="demo cursor" src="Event Photos/SwinEvent2Pic3.jpg" style="width:100%" onclick="currentSlide2(3)" alt="Swin event 3">
+                                                                </div>
+                                                                <div class="column">
+                                                                    <img class="demo cursor" src="Event Photos/SwinEvent2Pic4.jpg" style="width:100%" onclick="currentSlide2(4)" alt="Swin event 4">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+        
+
+
+
+
+
+
+
 
            
            
            
            
            
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-            <div class="content-max-width flex-row event-thumbnail-container">
-
-                   <div class="image event-thumbnail swin-event2-pic1"></div> 
-
-                   <div class="image event-thumbnail swin-event2-pic2"></div> 
-
-                   <div class="image event-thumbnail swin-event2-pic3"></div> 
-                   
-                   <div class="image event-thumbnail swin-event2-pic4"></div> 
-
-                   <div class="image event-thumbnail swin-event2-pic5"></div> 
-
-
-            </div>
 
         </div>
 
