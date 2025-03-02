@@ -403,7 +403,7 @@ a.ministry {
     text-align: center;
     line-height: 1.2;
     z-index: 70;
-    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.9);
+    text-shadow: 2px 3px 2px black;
     margin: 10 0;
     
 
@@ -534,7 +534,7 @@ div.banner-picture {
 .banner-picture.sub-description {
 
 
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 300;
     border: 2px solid #f8f8f8;
     padding: 5px;
