@@ -394,6 +394,16 @@ a.ministry {
 
 }
 
+img {
+
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+
+}
+
 
 
 .subtitle {
@@ -452,11 +462,7 @@ a.ministry {
 
 }
 
-.carousel-control {
 
-    width: 30%;
-
-}
 
 nav .image.darken {
 
@@ -995,14 +1001,7 @@ div.ministry.events-p {
 
 }
 
-img {
 
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-
-
-}
 
 .event-thumbnail {
 
@@ -1067,6 +1066,8 @@ img {
 
         /* Carousel */
 
+
+
         .carousel-indicators {
 
             margin: 20px auto !important;
@@ -1096,9 +1097,10 @@ img {
         .carousel-control {
 
             z-index: 50 !important;
+            width: 30%;
 
         }
-
+        
         .dot {
 
             margin: 0 10px !important;
@@ -1303,12 +1305,6 @@ a.social-media {
 }
 
 
-
-.imagePlaceholder {
-
-    background-color: maroon;
-
-}
 
 .googleMapsSwin {
 
@@ -1546,7 +1542,7 @@ li.top-shadow {
     transition: 0.6s ease;
     user-select: none;
     -webkit-user-select: none;
-    height: 80%;
+    height: 100%;
     width: 30%;
     align-items: center;
     justify-content: center;
@@ -1590,9 +1586,6 @@ li.top-shadow {
     top: 0;
   }
   
-  img {
-
-  }
   
   .caption-container {
     text-align: center;
