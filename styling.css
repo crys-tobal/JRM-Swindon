@@ -850,21 +850,21 @@ div.ministry.events-p {
 
 }
 
-.portrait1 {
+.m1portrait1 {
 
-    background-image: url('About Photos/aboutImg1.jpg');
-
-}
-
-.portrait2 {
-
-    background-image: url('About Photos/aboutImg2.jpg');
+    background-image: url('About Photos/aboutM1Img1.jpg');
 
 }
 
-.portrait3 {
+.m1portrait2 {
 
-    background-image: url('About Photos/aboutImg3.jpg');
+    background-image: url('About Photos/aboutM2Img2.jpg');
+
+}
+
+.m1portrait3 {
+
+    background-image: url('About Photos/aboutM3Img3.jpg');
 
 }
 
