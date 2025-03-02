@@ -858,14 +858,51 @@ div.ministry.events-p {
 
 .m1portrait2 {
 
-    background-image: url('About Photos/aboutM2Img2.jpg');
+    background-image: url('About Photos/aboutM1Img2.jpg');
 
 }
 
 .m1portrait3 {
 
-    background-image: url('About Photos/aboutM3Img3.jpg');
+    background-image: url('About Photos/aboutM1Img3.jpg');
 
+}
+
+    .m2portrait1 {
+
+        background-image: url('About Photos/aboutM2Img1.jpg');
+
+    }
+
+    .m2portrait2 {
+
+        background-image: url('About Photos/aboutM2Img2.jpg');
+
+    }
+
+    .m2portrait3 {
+
+        background-image: url('About Photos/aboutM2Img3.jpg');
+
+    }
+
+
+.m3portrait1 {
+ 
+    background-image: url('About Photos/aboutM3Img1.jpg');
+    
+}
+    
+.m3portrait2 {
+    
+    background-image: url('About Photos/aboutM3Img2.jpg');
+    
+}
+    
+.m3portrait3 {
+    
+    background-image: url('About Photos/aboutM3Img3.jpg');
+    
 }
 
 .parent {
